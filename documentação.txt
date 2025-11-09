@@ -1,0 +1,9 @@
+Anotações para Django
+
+1 - Criar um ambiente virtual.
+2 - fazer o pip install Django
+2.1 - iniciar um projeto. Pode colocar qualquer nome:
+    "django-admin startproject project ." --> o ponto no final é para o projeto ser criado na raiz da pasta
+2.2 - Para executar o App basta digitar no terminar: "python manage.py runserver"
+3 - Criar um App
+3.1 - Para criar um App deve-se dar o comando: "python manage.py startapp home" --> Pode ser qualquer nome. No caso estou usando home
