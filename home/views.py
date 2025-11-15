@@ -1,7 +1,17 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+
 
 def index(request):
     print('home')
-    return HttpResponse('Você acessou a HOME do App!')
+    return render(
+        request,
+        'home/home.html'
+    )
+
+def exemplo1(request):
+    print('pagina de exemplo')
+    return render(
+        request,
+        'home/exemplo.html'
+    )
 
